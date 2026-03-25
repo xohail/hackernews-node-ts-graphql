@@ -1,0 +1,31 @@
+{
+  "name": "hackernew-node-ts-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "pretty": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "cross-env": "7.0.3",
+    "prettier": "3.4.2",
+    "prisma": "7.0.1",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.0",
+    "@prisma/adapter-libsql": "^7.4.2",
+    "@prisma/client": "7.0.1",
+    "graphql": "^16.10.0",
+    "graphql-yoga": "^5.10.4"
+  }
+}
