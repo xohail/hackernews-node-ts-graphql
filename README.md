@@ -127,13 +127,3 @@ mutation {
   }
 }
 ```
-
-## Roadmap
-
-- [ ] Authentication — `User` model, `signup`/`login` mutations, JWT tokens
-- [ ] Relations — Link `postedBy` → User
-- [ ] Voting — `Vote` model and `vote` mutation
-- [ ] Input validation improvements
-- [ ] DataLoader to prevent N+1 queries
-- [ ] Integration tests with Vitest
-- [ ] Deploy to Railway + Turso
